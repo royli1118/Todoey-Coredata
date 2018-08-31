@@ -33,7 +33,14 @@
                             <outlet property="delegate" destination="1BZ-NX-WXT" id="UMA-3A-Hgq"/>
                         </connections>
                     </tableView>
-                    <navigationItem key="navigationItem" title="Todoey" id="ZAW-fM-4uL"/>
+                    <navigationItem key="navigationItem" title="Todoey" id="ZAW-fM-4uL">
+                        <barButtonItem key="rightBarButtonItem" systemItem="add" id="hcz-aD-n7g">
+                            <color key="tintColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            <connections>
+                                <action selector="addButtonPressed:" destination="1BZ-NX-WXT" id="bMV-aT-BOS"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="JrF-as-vOY" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -47,7 +54,7 @@
                     <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="eXE-8R-bB3">
                         <rect key="frame" x="0.0" y="20" width="375" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
-                        <color key="barTintColor" red="0.35074869790000002" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                        <color key="barTintColor" red="0.35074869790000002" green="0.56125217009999995" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                     </navigationBar>
                     <nil name="viewControllers"/>
                     <connections>
